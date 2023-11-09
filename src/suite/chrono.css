@@ -1,0 +1,68 @@
+/* Style de l'en-tête */
+.header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Style du compteur */
+  .counter {
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* Style des boutons */
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  /* Style des boutons d'action (play, pause, stop) */
+  .button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style du bouton d'ajout de temps */
+  .add-time-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-time-button:hover {
+    background-color: #1e7e34;
+  }
+  
+  /* Style du bouton de réinitialisation */
+  .reset-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .reset-button:hover {
+    background-color: #c82333;
+  }
+  

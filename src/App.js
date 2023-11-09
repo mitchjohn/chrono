@@ -1,25 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import Chronometre from './suite/chrono.js';
+import "./suite/chrono.css"
+import "./suite/ym.js"
+import Playlist from './suite/ym.js';
+import ImproviseThemeGenerator from './suite/generateur.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <>
+    
+     
+    
+    < Chronometre/>
+    <Playlist/>
+    <ImproviseThemeGenerator/>
+    </>)
+};
 
 export default App;
