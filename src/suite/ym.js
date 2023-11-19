@@ -20,7 +20,7 @@ export default function PlaylistApp() {
         console.error('Erreur de lecture :', event.data);
       });
 
-      setPlayer(youtubePlayer);
+      //setPlayer(youtubePlayer);
     }
   }, [playlistId]);
 
