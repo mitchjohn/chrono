@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Chronometre from './suite/chrono.js';
 import "./suite/chrono.css"
@@ -14,7 +13,7 @@ function App() {
     
     < Chronometre/>
     <Playlist/>
-    <ImproviseThemeGenerator/>
+    <generateRandomTheme/>
     </>)
 };
 
