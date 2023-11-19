@@ -4,7 +4,7 @@ import YouTubePlayer from 'youtube-player'; // Assurez-vous d'avoir installé ce
 export default function PlaylistApp() {
   const [youtubeLink, setYoutubeLink] = useState('');
   const [playlistId, setPlaylistId] = useState(null);
-  const [player, setPlayer] = useState(null);
+  //const [player, setPlayer] = useState(null);
 
   useEffect(() => {
     // Créez une instance du lecteur YouTube lorsque l'ID de la playlist est disponible
